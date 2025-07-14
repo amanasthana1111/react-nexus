@@ -1,3 +1,6 @@
+//Making own react - > reac create element and react dom render
+
+
 const React = {
     createElement : (tag , styles , children)=>{
         const element  = document.createElement(tag);
