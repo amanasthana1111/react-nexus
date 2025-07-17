@@ -1,0 +1,92 @@
+const arr = [
+  {
+    id: 1,
+    name: "Men's Cotton T-Shirt",
+    type: "T-Shirt",
+    price: 799,
+    discount: 20, // in percent
+    finalPrice: 639,
+    offer: "20% off on summer collection"
+  },
+  {
+    id: 2,
+    name: "Women's High-Waist Jeans",
+    type: "Jeans",
+    price: 1999,
+    discount: 30,
+    finalPrice: 1399,
+    offer: "Flat 30% off"
+  },
+  {
+    id: 3,
+    name: "Unisex Hoodie",
+    type: "Hoodie",
+    price: 1499,
+    discount: 15,
+    finalPrice: 1274,
+    offer: "15% off on winter wear"
+  },
+  {
+    id: 4,
+    name: "Men's Formal Shirt",
+    type: "Shirt",
+    price: 1299,
+    discount: 25,
+    finalPrice: 974,
+    offer: "Buy 1 Get 1 at 25% off"
+  },
+  {
+    id: 5,
+    name: "Women's Kurti",
+    type: "Kurti",
+    price: 1099,
+    discount: 10,
+    finalPrice: 989,
+    offer: "Extra 10% off for new users"
+  },
+  {
+    id: 6,
+    name: "Men's Cargo Pants",
+    type: "Pants",
+    price: 1899,
+    discount: 35,
+    finalPrice: 1234,
+    offer: "35% off + Free shipping"
+  },
+  {
+    id: 7,
+    name: "Kids' Party Dress",
+    type: "Dress",
+    price: 899,
+    discount: 20,
+    finalPrice: 719,
+    offer: "Special 20% off for kids"
+  },
+  {
+    id: 8,
+    name: "Women's Saree",
+    type: "Saree",
+    price: 2499,
+    discount: 40,
+    finalPrice: 1499,
+    offer: "Festival Sale: 40% off"
+  },
+  {
+    id: 9,
+    name: "Men's Tracksuit",
+    type: "Tracksuit",
+    price: 2299,
+    discount: 28,
+    finalPrice: 1655,
+    offer: "Limited Offer: 28% off"
+  },
+  {
+    id: 10,
+    name: "Women's Crop Top",
+    type: "Top",
+    price: 699,
+    discount: 18,
+    finalPrice: 573,
+    offer: "Trending now - 18% off"
+  }
+];

@@ -1,0 +1,85 @@
+const arr = [
+  {
+    id: 1,
+    name: "Women's Printed T-Shirt",
+    type: "T-Shirt",
+    price: 699,
+    offer: "15% off on latest prints",
+    img: "https://imgs.search.brave.com/aZZXNcLJH6_ee1auvkJ7bzk17aEXSs0ShqzrBoNw9mA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U3LzIw/LzZhL2U3MjA2YTMw/NmY4MTI5ZjA2MTA0/MjY5MTc0YmYwZWZi/LmpwZw",
+  },
+  {
+    id: 2,
+    name: "Women's Pocket Shirt",
+    type: "Shirt",
+    price: 999,
+    offer: "20% off casual wear",
+    img: "https://imgs.search.brave.com/Qszprq6JRTw5u2i5S2rFR8n_KapX9FS7InZY0NfuGO8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzExMzU1/MzcyMi93b21lbi1w/cmludGVkLXBvY2tl/dHMtdC1zaGlydC53/ZWJw",
+  },
+  {
+    id: 3,
+    name: "Graphic Drop Shoulder Tee",
+    type: "T-Shirt",
+    price: 699,
+    offer: "10% off on oversized fits",
+    img: "https://imgs.search.brave.com/rIo_UiL7YoZFOCDBNPjKtp5NKj3-SsxygLTAnE36GBk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzEwODYw/NzM5My93b21lbi1n/cmFwaGljLXByaW50/ZWQtZHJvcC1zaG91/bGRlci1zbGVldmVz/LXQtc2hpcnQud2Vi/cA",
+  },
+  {
+    id: 4,
+    name: "Rust Lounge Shirt",
+    type: "Shirt",
+    price: 1199,
+    offer: "Lounge offer: 25% off",
+    img: "https://imgs.search.brave.com/4T3vQFuTy2twJp18QxhtQh4jg2FH60s-eDDouNoZBWQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzExMzU1/NjI0My93b21lbnMt/cnVzdC1yZWxheGVk/LWxvdW5nZS10LXNo/aXJ0LndlYnA",
+  },
+  {
+    id: 5,
+    name: "Typography Cotton Shirt",
+    type: "Shirt",
+    price: 799,
+    offer: "12% off on street style",
+    img: "https://imgs.search.brave.com/dK-skMsCqq1odhsDtqfZjvkx4P7m0F7H2qcbhHTSHkY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzEwMjM2/NjY4Ny93b21lbi10/eXBvZ3JhcGh5LXBy/aW50ZWQtcHVyZS1j/b3R0b24tb3ZlcnNp/emVkLXQtc2hpcnQu/d2VicA",
+  },
+  {
+    id: 11,
+    name: "Women's Printed T-Shirt",
+    type: "T-Shirt",
+    price: 699,
+    offer: "15% off on latest prints",
+    img: "https://imgs.search.brave.com/aZZXNcLJH6_ee1auvkJ7bzk17aEXSs0ShqzrBoNw9mA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U3LzIw/LzZhL2U3MjA2YTMw/NmY4MTI5ZjA2MTA0/MjY5MTc0YmYwZWZi/LmpwZw",
+  },
+  {
+    id: 21,
+    name: "Women's Pocket Shirt",
+    type: "Shirt",
+    price: 999,
+    offer: "20% off casual wear",
+    img: "https://imgs.search.brave.com/Qszprq6JRTw5u2i5S2rFR8n_KapX9FS7InZY0NfuGO8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzExMzU1/MzcyMi93b21lbi1w/cmludGVkLXBvY2tl/dHMtdC1zaGlydC53/ZWJw",
+  },
+  {
+    id: 31,
+    name: "Graphic Drop Shoulder Tee",
+    type: "T-Shirt",
+    price: 899,
+    offer: "10% off on oversized fits",
+    img: "https://imgs.search.brave.com/rIo_UiL7YoZFOCDBNPjKtp5NKj3-SsxygLTAnE36GBk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzEwODYw/NzM5My93b21lbi1n/cmFwaGljLXByaW50/ZWQtZHJvcC1zaG91/bGRlci1zbGVldmVz/LXQtc2hpcnQud2Vi/cA",
+  },
+  {
+    id: 41,
+    name: "Rust Lounge Shirt",
+    type: "Shirt",
+    price: 1199,
+    offer: "Lounge offer: 25% off",
+    img: "https://imgs.search.brave.com/4T3vQFuTy2twJp18QxhtQh4jg2FH60s-eDDouNoZBWQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzExMzU1/NjI0My93b21lbnMt/cnVzdC1yZWxheGVk/LWxvdW5nZS10LXNo/aXJ0LndlYnA",
+  },
+  {
+    id: 51,
+    name: "Typography Cotton Shirt",
+    type: "Shirt",
+    price: 799,
+    offer: "12% off on street style",
+    img: "https://imgs.search.brave.com/dK-skMsCqq1odhsDtqfZjvkx4P7m0F7H2qcbhHTSHkY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZmFzaGlvbGEu/aW4vcHJvZHVjdC1s/aXN0LzMwMHg0NTAv/bXludHJhLzEwMjM2/NjY4Ny93b21lbi10/eXBvZ3JhcGh5LXBy/aW50ZWQtcHVyZS1j/b3R0b24tb3ZlcnNp/emVkLXQtc2hpcnQu/d2VicA",
+  }
+];
+
+
+export default arr;
